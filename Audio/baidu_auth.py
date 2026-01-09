@@ -40,8 +40,8 @@ class BaiduAuth:
             raise
 
 
-API_KEY = 'RzB1cd4kTsjJjtoybBXvfo0h'
-SECRET_KEY = 'YDaZP16qr1jPkq8GoE3xDs758c9xlasI'
+API_KEY = 'API'
+SECRET_KEY = 'KEY'
 
 _auth_instance = None
 
