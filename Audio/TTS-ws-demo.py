@@ -223,7 +223,7 @@ class BaiduTTSWebSocketSDK:
 
 # 示例：使用 SDK
 if __name__ == "__main__":
-    Authorization = "RzB1cd4kTsjJjtoybBXvfo0h" # iam API_KEY或TOKEN二选一
+    Authorization = "KEY" # iam API_KEY或TOKEN二选一
     PER = 4192   # 替换为你的发音人参数
     sdk = BaiduTTSWebSocketSDK(authorization=Authorization, per=PER, base_url="wss://aip.baidubce.com/ws/2.0/speech/publiccloudspeech/v1/tts")
 
