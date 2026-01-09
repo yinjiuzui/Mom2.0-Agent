@@ -64,9 +64,9 @@ class BaiduASR:
             }
 
 
-APP_ID = '7393141'
-API_KEY = 'RzB1cd4kTsjJjtoybBXvfo0h'
-SECRET_KEY = 'YDaZP16qr1jPkq8GoE3xDs758c9xlasI'
+APP_ID = 'YOUR-ID'
+API_KEY = 'YOUR-API-KEY'
+SECRET_KEY = 'YOUR-SECRET_KEY'
 
 _asr_instance = None
 
