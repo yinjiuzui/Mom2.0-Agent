@@ -210,7 +210,7 @@ class LLMRouter:
         contents.append({"type": "text", "text": prompt})
 
         url = base_url if base_url else "https://api.singinggirl.com/v1"
-        api_key = api_key if api_key else "sk-yJVpyGvbFsrydDtPg91AjZsqZC65s7Vsrg0oqJ1llKEpBaYb"
+        api_key = api_key if api_key else "Your-API-KEY"
 
         if '/chat/completions' not in url:
             url = f"{url}/chat/completions"
@@ -316,7 +316,7 @@ class LLMRouter:
         messages.append({"role": "user", "content": contents})
 
         url = base_url if base_url else "https://api.singinggirl.com/v1"
-        api_key = api_key if api_key else "sk-yJVpyGvbFsrydDtPg91AjZsqZC65s7Vsrg0oqJ1llKEpBaYb"
+        api_key = api_key if api_key else "YOUR-APIKEY"
 
         if '/responses' not in url:
             url = f"{url}/responses"
@@ -458,7 +458,7 @@ class LLMRouter:
         messages.append({"role": "user", "content": contents})
 
         url = base_url if base_url else "https://api.singinggirl.com/v1"
-        api_key = api_key if api_key else "sk-yJVpyGvbFsrydDtPg91AjZsqZC65s7Vsrg0oqJ1llKEpBaYb"
+        api_key = api_key if api_key else "YOUR-API-KEY"
 
         if '/messages' not in url:
             url = f"{url}/messages"
@@ -572,7 +572,7 @@ class LLMRouter:
         
         print(f"Call LLM with {model}@_gemini_generateContent: {desc}")
 
-        api_key = api_key if api_key else "sk-yJVpyGvbFsrydDtPg91AjZsqZC65s7Vsrg0oqJ1llKEpBaYb"
+        api_key = api_key if api_key else "YOUR-APIKEY"
         base_url = base_url if base_url else "https://api.singinggirl.com/v1beta"
         url = f"{base_url}/models/{model}:streamGenerateContent?key=&alt=sse"
 
@@ -737,7 +737,7 @@ class LLMRouter:
             pdf_path=[],
             pdf_data=None,
             model=model,
-            api_key='bd22c37b19e245efbaf160783d60333e.HKhuAu6G3skGKAic',
+            api_key='YOUR-API-KEY',
             base_url='https://open.bigmodel.cn/api/coding/paas/v4',
             schema=None,
             stream_output=stream_output,
